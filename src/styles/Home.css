@@ -13,9 +13,17 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: #21325e;
-  background-image: linear-gradient(#003366,#003300);
   color: #f0f0f0;
+}
+
+.p-skill{
+  font-size:30px;
+  font-weight:bold;
+}
+
+.passport{
+height:250px;
+border-radius:40px;
 }
 
 .about h2 {
@@ -46,7 +54,7 @@
 }
 
 .skills h1 {
-  color: #3e497a;
+  color: #3e497a;  
 }
 
 .skills .list {
@@ -57,11 +65,21 @@
 
 .list span {
   font-size: 20px;
+  font-weight:bold;
+}
+
+.col-right{
+  width:50%;
+  float:right;
+}
+.col-left{
+  width:50%;
+  float:left;
 }
 
 @media only screen and (max-width: 600px) {
   .about h2 {
-    font-size: 40px;
+    font-size: 20px;
   }
 
   .about .prompt {
@@ -80,4 +98,36 @@
   .skills h2 {
     font-size: 30px;
   }
+
+  .p-skill{
+    font-size:20px;
+    color:black;
+  }
+
+  .list span {
+    font-size: 15px;
+    font-weight:bold;
+
+  }
+
+  .col-right{
+    width:100%;
+   
+  }
+  .col-left{
+    width:100%;
+   
+  }
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }

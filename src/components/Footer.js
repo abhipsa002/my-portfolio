@@ -6,7 +6,8 @@ function Footer() {
   return (
     <div className="footer">
       <div className="prompt-footer">
-        <LinkedInIcon/>
+        {/* <LinkedInIcon/> */}
+        
         <p> &copy; 2022 abhipsa.com</p>
       </div>
     </div>
