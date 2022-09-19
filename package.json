@@ -1,6 +1,7 @@
 {
   "name": "portfolio-react",
   "version": "0.1.0",
+  "homepage": "https://abhipsa002.github.io/my-portfolio"  
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.12.4",
