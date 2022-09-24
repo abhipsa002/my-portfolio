@@ -13,16 +13,17 @@ function Experience() {
       <VerticalTimeline lineColor="#3e497a">
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
-          date="2021 - Present"
+          date="2021 August - Present"
           iconStyle={{background:"#3e497a",color:"#fff"}}
           icon={<BusinessIcon/>}
         >
           <h3 className="vertical-timeline-element-title">Anuta Networks,Bangalore</h3>
           <p>Software Engineer</p>
         </VerticalTimelineElement>
+
         <VerticalTimelineElement
           className="vertical-timeline-element--title"
-          date="2020 - 2021"
+          date="2020 July- 2021 July"
           iconStyle={{background:"#3e497a",color:"#fff"}}
           icon={<BusinessIcon/>}
         >
@@ -45,6 +46,7 @@ function Experience() {
           icon={<SchoolIcon/>}
         >
           <h3 className="vertical-timeline-element-title">IIIT Bhubaneswar</h3>
+          <p>CGPA - 7.87</p>
           <p>Graduation , BTech</p>
         </VerticalTimelineElement>
         <VerticalTimelineElement
@@ -54,6 +56,7 @@ function Experience() {
           icon={<SchoolIcon/>}
         >
           <h3 className="vertical-timeline-element-title">Carmel Convent High School</h3>
+          <p>92.3 %</p>
           <p>ISC</p>
         </VerticalTimelineElement>
       </VerticalTimeline>
